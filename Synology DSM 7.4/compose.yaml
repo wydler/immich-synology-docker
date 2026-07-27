@@ -43,7 +43,7 @@ services:
 
 
   redis:
-    image: docker.io/valkey/valkey:8-bookworm@sha256:fea8b3e67b15729d4bb70589eb03367bab9ad1ee89c876f54327fc7c6e618571
+    image: docker.io/valkey/valkey:9@sha256:3acc0687f2a2e1091fae6450d7842dd658c941338cf0a873ddd9e14b9e4ea4dd
     container_name: immich_redis
     hostname: ${REDIS_HOSTNAME}
     security_opt:
