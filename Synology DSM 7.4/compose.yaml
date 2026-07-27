@@ -68,7 +68,7 @@ services:
 
 
   database:
-    image: ghcr.io/immich-app/postgres:16-vectorchord0.3.0-pgvectors0.2.1
+    image: ghcr.io/immich-app/postgres:16-vectorchord1.1.1-pgvector0.8.5
     container_name: immich_postgres
     hostname: ${DB_HOSTNAME}
     # Prevent escalation of privileges after the container is started
